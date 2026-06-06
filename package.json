@@ -1,0 +1,22 @@
+{
+  "name": "petitioniq-proxy",
+  "version": "1.0.0",
+  "description": "PetitionIQ Express Backend",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "node --watch proxy-server.js"
+  },
+  "keywords": [
+    "express",
+    "anthropic",
+    "resend",
+    "petitioniq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
